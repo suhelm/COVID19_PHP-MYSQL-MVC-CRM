@@ -1,0 +1,91 @@
+.container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-areas: "a-6WXKx-0 main"
+  "a-6WXKx-1 footer-1-0";
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 80px;
+}
+.container > div {
+  border: 1px dashed #888;
+}
+
+.a-6WXKx-0 {
+  grid-area: a-6WXKx-0;
+}
+.main {
+  grid-area: main;
+}
+.a-6WXKx-1 {
+  grid-area: a-6WXKx-1;
+}
+.footer-1-0 {
+  grid-area: footer-1-0;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: centre;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
