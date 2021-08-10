@@ -13,7 +13,7 @@
         <?php
         include('../config.php');
         global $mysqli;
-        $searchString = $_POST['searchstring'];
+        $searchString = "%";
         $query = "SELECT P.HEALTH_WORKER_ID,P.PERSON_ID,P.FIRST_NAME,P.LAST_NAME,A.ADDRESS_LINE1,A.ADDRESS_LINE2,A.CITY,A.POSTAL_CODE,A.PROVINCE FROM PERSON P,ADDRESS A WHERE P.HEALTH_WORKER = 'Y' AND P.PERSON_ID = A.PERSON_ID ";
 
         //echo $query ."<br><br>";

@@ -13,7 +13,7 @@
         <?php
         include('../config.php');
         global $mysqli;
-        $searchString = $_POST['searchstring'];
+        $searchString = "%";
 
         $query = "SELECT * FROM(SELECT V.VACCINE_ID,V.VACCINE_NAME,VF.FACILITY_ID,VF.FACILITY_NAME,(SELECT SUM(QUANTITY) FROM INVENTORY WHERE FACILITY_ID = VF.FACILITY_ID AND VACCINE_ID = V.VACCINE_ID) AS QTT FROM VACCINE V,VACCINATION_FACILITIES VF ORDER BY VF.FACILITY_ID ) C WHERE FACILITY_ID  LIKE '$searchString'";
         //echo $query ."<br><br>";

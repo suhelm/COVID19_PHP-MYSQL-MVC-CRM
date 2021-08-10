@@ -13,7 +13,7 @@
         <?php
         include('../config.php');
         global $mysqli;
-        $searchString = $_POST['searchstring'];
+        $searchString = "%";
         $query = "SELECT * FROM (SELECT P.PERSON_ID,P.FIRST_NAME,P.LAST_NAME,A.ADDRESS_LINE1,A.ADDRESS_LINE2,A.CITY,A.POSTAL_CODE,A.PROVINCE  FROM PERSON P, ADDRESS A WHERE P.PERSON_ID=A.PERSON_ID AND P.FIRST_NAME LIKE '$searchString%' OR LAST_NAME LIKE '$searchString%' OR A.ADDRESS_LINE1 LIKE '$searchString%' ) B GROUP BY B.PERSON_ID ";
 
         //echo $query ."<br><br>";

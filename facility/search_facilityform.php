@@ -13,7 +13,7 @@
         <?php
         include('../config.php');
         global $mysqli;
-        $searchString = $_POST['searchstring'];
+        $searchString = "%";
 
         $query = "SELECT * FROM VACCINATION_FACILITIES where FACILITY_NAME LIKE '$searchString'";
         //echo $query ."<br><br>";

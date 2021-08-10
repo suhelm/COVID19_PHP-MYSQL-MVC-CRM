@@ -13,10 +13,10 @@
         <?php
         include('../config.php');
         global $mysqli;
-        $searchString = "%";
+        $searchString = $_POST['searchstring'];
 
-        $query = "SELECT * FROM VACCINE where VACCINE_NAME LIKE '$searchString'";
-        //echo $query ."<br><br>";
+        $query = "select * from VIEW_SHIPMENT order by TRANSFER_ID asc";
+    
 
         $result = mysqli_query($mysqli, $query);
         $fields_num = mysqli_field_count($mysqli);
@@ -50,8 +50,8 @@
 
 
 
-                    if ($colName == "VACCINE_ID") {
-                        echo "<td><a href=vaccinesingle_view.php?key=$row[$colName]>$row[$colName]</a></td>";
+                    if ($colName == "FACILITY_ID") {
+                        echo "<td><a href=facilitysingle_view.php?key=$row[$colName]>$row[$colName]</a></td>";
                     }else{
                         echo "<td>" . $row[$colName] . "</td>";
                     }

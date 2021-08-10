@@ -49,7 +49,7 @@ ul, #myUL {
 <ul id="myUL">
     <li><span class="caret">Covid Variants</span>
         <ul class="nested">
-            <li><span class="caret"><a href="../variants/covidvariant_search.php">Search</a></li>
+            <li><span class="caret"><a href="../variants/search_covidvariantform.php">Search</a></li>
             <li><span class="caret"><a href="../variants/covidvariantform.php">Add New</a></li>
 
         </ul>
@@ -59,7 +59,7 @@ ul, #myUL {
 <ul id="myUL">
     <li><span class="caret">Provinces</span>
         <ul class="nested">
-            <li><span class="caret"><a href="../provinces/province_search.php">Search</a></li>
+            <li><span class="caret"><a href="../provinces/search_provinceform.php">Search</a></li>
             <li><span class="caret"><a href="../provinces/provinceform.php">Add New</a></li>
 
         </ul>
@@ -69,7 +69,7 @@ ul, #myUL {
 <ul id="myUL">
     <li><span class="caret">Health Worker Records</span>
         <ul class="nested">
-            <li><span class="caret"><a href="../healthworker/healthworker_search.php">Search</a></li>
+            <li><span class="caret"><a href="../healthworker/search_healthworkerform.php">Search</a></li>
             <li><span class="caret"><a href="../healthworker/healthworkerform.php">Add New</a></li>
             <li><span class="caret"><a href="../healthworker/search_workerby_facility.php">Search by Facility</a></li>
             <li><span class="caret"><a href="../worklog/worklog.php">work log</a></li>
@@ -82,7 +82,7 @@ ul, #myUL {
 <ul id="myUL">
     <li><span class="caret">Vaccines</span>
         <ul class="nested">
-            <li><span class="caret"><a href="../vaccine/vaccine_search.php">Search</a></li>
+            <li><span class="caret"><a href="../vaccine/search_vaccineform.php">Search</a></li>
             <li><span class="caret"><a href="../vaccine/vaccineform.php">Add New</a></li>
         </ul>
     </li>
@@ -91,7 +91,7 @@ ul, #myUL {
 <ul id="myUL">
     <li><span class="caret">Vaccination Facilities</span>
         <ul class="nested">
-            <li><span class="caret"><a href="../facility/facility_search.php">Search</a></li>
+            <li><span class="caret"><a href="../facility/search_facilityform.php">Search</a></li>
             <li><span class="caret"><a href="../facility/facilityform.php">Add New</a></li>
             <li><span class="caret"><a href="../inventory/inventory_search.php">Inventory</a></li>
             <li><span class="caret"><a href="../inventory/inventoryform.php">Add New Inventory</a></li>
@@ -103,7 +103,7 @@ ul, #myUL {
 <ul id="myUL">
     <li><span class="caret">Person Records</span>
         <ul class="nested">
-            <li><span class="caret"><a href="../person/person_search.php">Search</a></li>
+            <li><span class="caret"><a href="../person/search_personform.php">Search</a></li>
             <li><span class="caret"><a href="../person/personform.php">Add New</a></li>
 
         </ul>
@@ -111,7 +111,7 @@ ul, #myUL {
 </ul>
 
 <ul id="myUL">
-    <li><span class="caret">PERFORM VACCINATION</span>
+    <li><span class="caret">Perform Vaccination</span>
         <ul class="nested">
             <li><span class="caret"><a href="../vaccination/register_vacinationform.php">Record Vaccination</a></li>
         </ul>
@@ -145,7 +145,7 @@ ul, #myUL {
     <li><span class="caret">Reports</span>
         <ul class="nested">
             <li><span class="caret"><a href="../shipping/received_shipping.php">Shipping</a></li>
-            <li><span class="caret"><a href="../shipping/received_shipping.php">Transfers</a></li>
+            <li><span class="caret"><a href="../reports/transfers.php">Transfers</a></li>
             <li><span class="caret"><a href="../reports/personwithonedose.php">Persons with One Dose</a></li>
             <li><span class="caret"><a href="../reports/nfvhw.php">Not Fully Vaccinated Health Worker</a></li>
             <li><span class="caret"><a href="../reports/fvacc.php">Fully Vaccinated with Diff Vaccine</a></li>

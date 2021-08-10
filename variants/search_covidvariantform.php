@@ -13,7 +13,7 @@
         <?php
         include('../config.php');
         global $mysqli;
-        $searchString = $_POST['searchstring'];
+        $searchString = "%";
 
         $query = "SELECT * FROM COVID_VARIANTS where VARIANT_TYPE LIKE '$searchString'";
         //echo $query ."<br><br>";

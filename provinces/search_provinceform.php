@@ -13,7 +13,7 @@
         <?php
         include('../config.php');
         global $mysqli;
-        $searchString = $_POST['searchstring'];
+        $searchString = "%";
         $query = "SELECT SHORT_CODE,PROVINCE_NAME FROM PROVINCES order by SHORT_CODE asc; ";
 
         //echo $query ."<br><br>";

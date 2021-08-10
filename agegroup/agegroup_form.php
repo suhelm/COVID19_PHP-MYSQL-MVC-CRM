@@ -44,7 +44,7 @@
             <input type="submit" value="Submit" name="saveData">
         </form>
     </div>
-    <div class="footer-1-0"><?php include 'footer.php';?></div>
+
 </div>
 
 
