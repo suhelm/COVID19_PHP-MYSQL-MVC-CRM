@@ -4,10 +4,10 @@
 //$password = "";
 //$dbname = "SUMMER_MIDTERM";
 
-$servername = "ojc353.encs.concordia.ca";
-$username = "ojc353_1";
-$password = "2XLander";
-$dbname = "ojc353_1";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 
 // Create connection
